@@ -6,6 +6,7 @@ class CDate
 {
 private:
 	int Ngay, Thang, Nam;
+	int NgayThang[12] = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 public:
 	/*Nhom tao huy*/
 	CDate();
