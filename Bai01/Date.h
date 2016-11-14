@@ -17,9 +17,9 @@ public:
 
 	/*Nhom truy xuat thong tin*/
 	void NgayThangNam();
-	void ThuTrongTuan();
-	void TuanTrongNam();
-	void NgayTuyetDoi();
+	int ThuTrongTuan();
+	int TuanTrongNam();
+	int NgayTuyetDoi();
 
 	/*Nhom xu ly nghiep vu*/
 	bool KiemTraNamNhuan();
