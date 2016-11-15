@@ -266,4 +266,5 @@ istream& operator >> (istream &nhap, CDate &a)
 ostream& operator << (ostream &xuat, CDate &a)
 {
 	xuat << a.Ngay << "/" << a.Thang << "/" << a.Nam << endl;
+	return xuat;
 }

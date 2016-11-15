@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{25DB4C9A-7000-49DD-8D50-860E2AF5395F}</ProjectGuid>
+    <ProjectGuid>{7587EB29-F40E-4265-9B4B-75150A871B2F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Bai01</RootNamespace>
+    <RootNamespace>Bai03</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,11 +142,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Date.h" />
+    <ClInclude Include="Mang.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Date.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mang.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
